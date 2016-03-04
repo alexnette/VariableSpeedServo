@@ -19,7 +19,7 @@
 #if defined(ARDUINO_ARCH_SAM)
 
 #include <Arduino.h>
-#include <VarSpeedServoSam.h>
+#include <var-speed-servo.h>
 
 #define usToTicks(_us)    (( clockCyclesPerMicrosecond() * _us) / 32)     // converts microseconds to tick
 #define ticksToUs(_ticks) (( (unsigned)_ticks * 32)/ clockCyclesPerMicrosecond() ) // converts from ticks back to microseconds
