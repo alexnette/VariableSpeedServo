@@ -4,5 +4,5 @@
   "author": "Alex Nette",
   "license": "Apache",
   "version": "0.0.1",
-  "description": "Something something"
+  "description": "An Arduino/Photon library for adjustable servo speed"
 }
